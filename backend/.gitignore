@@ -1,0 +1,18 @@
+# Exclude Python virtual environment
+.venv/
+
+# Exclude uploads folder
+uploads/
+
+# Exclude large files (over 100MB)
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore files larger than 100MB (use git-lfs for large files)
+*.[!md][!git][!cfg][!txt]/*
+!*.md
+!*.gitignore
+!*.cfg
+!*.txt
