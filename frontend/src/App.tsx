@@ -76,11 +76,11 @@ const FileUpload: React.FC = () => {
               type="file"
               accept="image/*"
               onChange={handleFileChange}
-              className="w-full p-3 mb-4 text-gray-300 border-2 border-dashed border-gray-600 rounded-lg bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full p-3 mb-4 text-gray-300 border-2 hover:cursor-pointer border-dashed border-gray-600 rounded-lg bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <button
               onClick={handleUpload}
-              className={`w-full py-3 flex items-center justify-center gap-2 text-lg font-semibold rounded-lg ${
+              className={`w-full py-3 flex items-center justify-center gap-2 hover:cursor-pointer text-lg font-semibold rounded-lg ${
                 loading
                   ? "bg-gray-500 cursor-not-allowed"
                   : "bg-blue-500 hover:bg-blue-600"
