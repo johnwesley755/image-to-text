@@ -6,3 +6,4 @@ transformers
 easyocr
 opencv-python
 numpy
+gunicorn
